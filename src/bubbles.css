@@ -18,8 +18,8 @@
 ._5126c0cd07f243a0-message,
 .c19a557985eb7793-contents {
   /* position: absolute; */
-  max-width: 95% !important;
-  min-width: 95% !important;
+  max-width: 85% !important; /* optional: a reasonable max to prevent overly wide bubbles */
+  min-width: 80%;
 }
 
 .c19a557985eb7793-buttonContainer ._040f07d21e1fb0d6-container {
@@ -143,9 +143,11 @@
 }
 
 /* bring pfp to bottom of messages */
-.c19a557985eb7793-avatar,
-.c19a557985eb7793-avatarDecoration {
+.c19a557985eb7793-avatar {
   bottom: 8px;
+}
+.c19a557985eb7793-avatarDecoration{
+  bottom: 4px;
 }
 
 .c19a557985eb7793-messageSpine:before,
